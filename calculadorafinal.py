@@ -27,9 +27,18 @@ print('=========================================================================
 print('ESTE PROYECTO TE DEJARA CALCULAR TU INDICE DE MASA CORPORAL(IMC) Y SABER SI TIENES UN PESO A DECUADO EN BASE A TU ALTURA Y PESO')
 print('============================================================================================================================================')
 
-nombre= str(input('Cual es tu nombre? '))
+nombre= str(input('Cual es tu nombre o nombres? '))
+apellido1= str(input('Cual es tu apellido paterno? '))
+apellido2= str(input('Cual es tu apellido materno? '))
 print('============================================================================================================================================')
-print('HOLA', nombre )
+print('HOLA', nombre,apellido1,apellido2  )
+edad= int(input('ingresa tu edad: '))
+
+if (edad < 18):
+    print("eres menor de edad")
+else :
+    print('eres mayor de edad')
+
 print('============================================================================================================================================')
 peso= float(input('Ingresa tu peso en (KG): '))
 print('============================================================================================================================================')
